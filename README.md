@@ -8,38 +8,50 @@ This is configuration for [💤 LazyVim](https://www.lazyvim.org/) setup
 
 1. Add plugins:
 
-    - [Better escape](https://github.com/max397574/better-escape.nvim)
-    - [Lspsaga Nvim](https://nvimdev.github.io/lspsaga/)
+   - [Better escape](https://github.com/max397574/better-escape.nvim)
+   - [Lspsaga Nvim](https://nvimdev.github.io/lspsaga/)
 
 1. Ensure installed list plugins (Mason)
 
-    - typescript-language-server
-    - lua-language-server
-    - yaml-language-server
-    - bash-language-server
-    - dockerfile-language-server
-    - docker-compose-language-service
-    - chrome-debug-adapter
-    - css-lsp
-    - markdownlint
-    - eslint-lsp
-    - stylua
-    - prettier
+   - typescript-language-server
+   - lua-language-server
+   - yaml-language-server
+   - bash-language-server
+   - dockerfile-language-server
+   - docker-compose-language-service
+   - chrome-debug-adapter
+   - css-lsp
+   - markdownlint
+   - eslint-lsp
+   - stylua
+   - prettier
 
 1. Ensure installed list tree-sitter
-    - bash
-    - html
-    - javascript
-    - json
-    - lua
-    - markdown
-    - markdown_inline
-    - query
-    - regex
-    - tsx
-    - typescript
-    - vim
-    - yaml
+
+   - bash
+   - html
+   - javascript
+   - json
+   - lua
+   - markdown
+   - markdown_inline
+   - query
+   - regex
+   - tsx
+   - typescript
+   - vim
+   - yaml
+
+1. Add [extras](https://www.lazyvim.org/extras)
+
+   - CODING yanky
+   - FORMATTING prettier
+   - LANG markdown
+   - LANG typescript
+   - LANG yaml
+   - LINTING eslint
+   - LSP none-ls
+   - UTIL mini-hipatterns
 
 ## Instalation
 
@@ -47,7 +59,7 @@ A retelling of the documentation. The original documentation can be found [here]
 
 ### Linux
 
--   Make a backup of your current Neovim files:
+- Make a backup of your current Neovim files:
 
 ```bash
 # required
@@ -59,13 +71,13 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
--   Clone the starter
+- Clone the starter
 
 ```bash
 git clone https://github.com/enslit/lazyvim-config ~/.config/nvim
 ```
 
--   Start Neovim!
+- Start Neovim!
 
 ```bash
 nvim
@@ -75,7 +87,7 @@ nvim
 
 Install the LazyVim Starter with PowerShell
 
--   Make a backup of your current Neovim files:
+- Make a backup of your current Neovim files:
 
 ```powershell
 # required
@@ -85,13 +97,13 @@ Move-Item $env:LOCALAPPDATA\nvim $env:LOCALAPPDATA\nvim.bak
 Move-Item $env:LOCALAPPDATA\nvim-data $env:LOCALAPPDATA\nvim-data.bak
 ```
 
--   Clone the starter
+- Clone the starter
 
 ```powershell
 git clone https://github.com/enslit/lazyvim-config $env:LOCALAPPDATA\nvim
 ```
 
--   Start Neovim!
+- Start Neovim!
 
 ```powershell
 nvim
