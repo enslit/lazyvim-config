@@ -15,6 +15,7 @@ return {
         "eslint-lsp",
         "stylua",
         "prettier",
+        "js-debug-adapter",
       },
     },
   },
